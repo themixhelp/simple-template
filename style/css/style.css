@@ -101,6 +101,10 @@ article .icons-container {
   font-size: xx-large;
 }
 
+article .icons-container a {
+  color: #111518;
+}
+
 article .icons-container ion-icon {
   margin: 0 1%;
   cursor: pointer;
