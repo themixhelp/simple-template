@@ -6,7 +6,7 @@ body{
 }
 main{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 
     display: flex;
     justify-content: center;
@@ -15,7 +15,7 @@ main{
 
 article{
     width: 60vw;
-    height: 70vh;
+    min-height: 70vh;
 
     display: flex;
     flex-direction: column;
