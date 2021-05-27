@@ -1,0 +1,30 @@
+@import "config";
+
+body{
+    background: $second-bg-color;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    width: 70vw;
+    height: 50vh;
+
+    padding: 5%;
+    margin: 1%;
+
+    background: $main-color;
+    border-radius: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    img{
+        width: 15%;
+        border-radius: 50%;
+    }
+}

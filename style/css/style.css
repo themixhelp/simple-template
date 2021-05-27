@@ -1,1 +1,53 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;600;700;800;900&family=Roboto:wght@100;300;400&display=swap");
+/* colors */
+/* fonts */
+/* cmon transitions*/
+/* resets */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* add */
+.bold {
+  font-weight: bold;
+}
+
+body {
+  background: #97CB90;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+article {
+  width: 70vw;
+  height: 50vh;
+  padding: 5%;
+  margin: 1%;
+  background: #F6F4F4;
+  border-radius: 12px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+article img {
+  width: 15%;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */
