@@ -16,11 +16,6 @@ $second-bg-color: #97CB90;
     font-weight: $size;
 }
 
-/* cmon transitions*/
-@mixin animate($property){
-    transition: $property .3s linear;
-} 
-
 /* resets */
 body{
     margin: 0 !important;
