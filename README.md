@@ -2,6 +2,10 @@
 
 This is a completely free project that allows you to create a very basic website!
 
+## live demo:
+
+If you want to see this template in action, head to this [site](https://themixhelp.github.io/simple-template/).
+
 ## how does it look like?
 
 desktop view:\
