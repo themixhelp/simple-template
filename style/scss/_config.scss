@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;600;700;800;900&family=Roboto:wght@100;300;400&display=swap');
+
+/* colors */
+$main-color: #F6F4F4;
+$second-color: #111518;
+$bg-color: #37955D;
+$second-bg-color: #97CB90;
+
+/* fonts */
+@mixin header($size){ /* 500-900 */
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: $size;
+}
+@mixin content($size){ /* 100 & 300 & 400 */
+    font-family: 'Roboto', sans-serif;
+    font-weight: $size;
+}
+
+/* cmon transitions*/
+@mixin animate($property){
+    transition: $property .3s linear;
+} 
+
+/* resets */
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+a{
+    text-decoration: none;
+}
+
+/* add */
+.bold{
+    font-weight: bold;
+}
