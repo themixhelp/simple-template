@@ -2,6 +2,7 @@
 
 body{
     background: $second-bg-color;
+    @include content(300);
 }
 main{
     width: 100vw;
@@ -14,7 +15,12 @@ main{
 
 article{
     width: 70vw;
-    height: 50vh;
+    height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 
     padding: 5%;
     margin: 1%;
@@ -26,5 +32,29 @@ article{
     img{
         width: 15%;
         border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+
+    h1, h2{
+        text-align: center;
+    }
+    h1{
+        margin-bottom: 0;
+
+        color: $bg-color;
+        font-size: xx-large;
+        @include header(800);
+    }
+    h2{
+        margin-top: 0;
+
+        // color: $second-bg-color;
+        font-size: medium;
+        @include header(600);
+    }
+
+    p{
+        width: 90%;
+        text-align: justify;
     }
 }
